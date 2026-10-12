@@ -1,0 +1,16 @@
+[project]
+name = "georadar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.13",
+    "fastapi>=0.115,<1",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.7,<3",
+    "pydantic-settings>=2.3",
+    "sqlalchemy>=2.0,<2.1",
+    "tzdata>=2026.5",
+    "uvicorn[standard]>=0.30",
+]
